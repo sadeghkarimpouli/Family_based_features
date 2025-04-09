@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+matplotlib_scalebar
+scikit-learn
+networkx
+cartopy
+pyproj
+geopandas
+shapely

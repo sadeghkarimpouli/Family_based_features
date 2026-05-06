@@ -51,7 +51,7 @@ If you use this code or methodology in your research, please cite:
 Use:
 
 ```python
-Event_based_Features_functions.py
+Event_based_Catalog_Features.py
 ```
 
 to compute seismicity features from an earthquake catalog.

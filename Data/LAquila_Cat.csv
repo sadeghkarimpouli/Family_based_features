@@ -1,4 +1,4 @@
-GENIE_ID,UTM_Easting[m],UTM_Northing[m],Depth[m],Time[d.s],Magnitude,Scaled_E,Cluster
+Event_ID,UTM_Easting[m],UTM_Northing[m],Depth[m],Time[d.s],Magnitude,Scaled_E,Cluster
 1596129,256156.51,4858519.47,15130,732070.3964,1.57,-11.45,0
 1596159,356559.24,4798559.59,10,732070.4309,1.84,-5.99,0
 1596219,356857.7,4800397.66,2950,732070.6464,1.51,-6.45,0

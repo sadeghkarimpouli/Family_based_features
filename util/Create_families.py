@@ -62,8 +62,8 @@ def Create_families(features, df_parents, catalog_data, undisered_features = ['e
     time_column = []
     for i in range(len(All_f)):
         g_i = np.array(list(All_f[i]))
-        m_i = catalog_data[catalog_data['GENIE_ID'].isin(g_i)]['Magnitude']
-        t_i = catalog_data[catalog_data['GENIE_ID']==g_i[np.argmax(m_i)]]['Time[d.s]']
+        m_i = catalog_data[catalog_data['Event_ID'].isin(g_i)]['Magnitude']
+        t_i = catalog_data[catalog_data['Event_ID']==g_i[np.argmax(m_i)]]['Time[d.s]']
         time_column.append(t_i.values[0])
     time_column = pd.Series(time_column)
 

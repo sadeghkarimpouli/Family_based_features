@@ -71,7 +71,7 @@ def Cluster_families(families, catalog_data, e_feat, n_clusters=3, method='kmean
     feature_vectors = []
     for family in families:
         g_idx = np.array(list(family)).astype('int')
-        cat_family = catalog_data[catalog_data['GENIE_ID'].isin(g_idx)]
+        cat_family = catalog_data[catalog_data['Event_ID'].isin(g_idx)]
         features,_  = extract_family_features(family, cat_family, e_feat, flag=family_feature_flag) 
         feature_vectors.append(features)
     _, f_label = extract_family_features(family, cat_family, e_feat, flag=family_feature_flag)

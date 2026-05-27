@@ -99,17 +99,17 @@ Event_ID    UTM_Easting[m]   UTM_Northing[m]   Depth[m]   Time[d.s]     Magnitud
 
 The framework currently supports extraction of several seismicity features, including:
 
-- Event rate
-- Moment rate
-- b-value
-- Correlation integral
-- Inter-event time
-- Inter-event distance
-- Clustering features
-- Convex hull volume
-- Kostrov strain
+- Event rate (n)
+- Moment rate (logM)
+- b-value (b)
+- Correlation integral (C)
+- Inter-event time (IEt)
+- Inter-event distance (IEs)
+- Clustering features (trp, trr, pfo, pma, paf, cer, num, ...)
+- Convex hull volume (v)
+- Kostrov strain (logKs)
 
-Additional features can be incorporated through the modular feature extraction framework.
+For additional information about the features and notations see Table S1 in the [Supplementary PDF](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-72279-x/MediaObjects/41467_2026_72279_MOESM1_ESM.pdf).
 
 ---
 

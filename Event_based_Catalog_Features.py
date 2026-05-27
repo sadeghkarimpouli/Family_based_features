@@ -139,6 +139,8 @@ time_lag=None   # Maximum time to look back for each event in seconds; set to No
 c=6.5           # Clustering boundary log10(T*P). Use 'None' to let the code compute it based on the data 
                 # in the current windows, which is not recommended.
 
+# For outputs, see README.md and the supplementary material of the paper.
+
 if feature_flags["clustering"]:
     df_clust = eff.Clustering_event_based(
         df,
